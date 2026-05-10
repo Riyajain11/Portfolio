@@ -91,7 +91,7 @@ export const portfolioData = {
     },
     {
       name: "NPTEL AI",
-      link: "https://drive.google.com/file/d/1N5_CwZsRUh7i7WGmGU0_QoLFRLMQDevH/view"
+      link: "https://drive.google.com/file/d/1y-NSlIVomw2xbykqJf8bSJFEML1GMGfX/view"
     },
     {
       name: "InspireLeap Internship",
