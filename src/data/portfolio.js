@@ -19,26 +19,19 @@ export const portfolioData = {
     degree: "B.Tech in Electronics & Communication Engineering",
     institution: "Technocrats Institute of Technology",
     period: "2023–2027",
-    cgpa: "6.8"
+    cgpa: "8.04"
   },
   skills: [
     { name: "React.js", icon: FaReact, color: "#61DAFB" },
     { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
-    { name: "HTML5", icon: FaHtml5, color: "#E34F26" },
-    { name: "CSS3", icon: FaCss3Alt, color: "#1572B6" },
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
     { name: "Node.js", icon: FaNodeJs, color: "#339933" },
     { name: "Express.js", icon: SiExpress, color: "#ffffff" },
     { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-    { name: "Mongoose", icon: SiMongoose, color: "#880000" },
     { name: "REST APIs", icon: FaCode, color: "#007ACC" },
-    { name: "JWT Auth", icon: SiJsonwebtokens, color: "#000000" },
-    { name: "Cloudinary", icon: SiCloudinary, color: "#3448C5" },
-    { name: "Git", icon: FaGitAlt, color: "#F05032" },
-    { name: "GitHub", icon: FaGithub, color: "#ffffff" },
+    { name: "Git & GitHub", icon: FaGithub, color: "#ffffff" },
     { name: "Postman", icon: SiPostman, color: "#FF6C37" },
-    { name: "Render", icon: SiRender, color: "#46E3B7" },
-    { name: "Vercel", icon: SiVercel, color: "#ffffff" },
+    { name: "Cloud Deployment", icon: SiRender, color: "#46E3B7" },
   ],
   experience: [
     {
@@ -88,10 +81,21 @@ export const portfolioData = {
     }
   ],
   certifications: [
-    "MERN Stack",
-    "Red Hat Linux RH104",
-    "Oracle Cloud DB",
-    "NPTEL AI",
-    "InspireLeap Internship Certificate"
+    {
+      name: "MERN Stack",
+      link: "https://drive.google.com/file/d/1n-jVPeQKAWdCWuYdCMjjDUVcpyI3qD94/view"
+    },
+    {
+      name: "Oracle Cloud DB",
+      link: "https://drive.google.com/file/d/1N5_CwZsRUh7i7WGmGU0_QoLFRLMQDevH/view"
+    },
+    {
+      name: "NPTEL AI",
+      link: "https://drive.google.com/file/d/1N5_CwZsRUh7i7WGmGU0_QoLFRLMQDevH/view"
+    },
+    {
+      name: "InspireLeap Internship",
+      link: "https://drive.google.com/file/d/1V6eBv0uStBoz9HCDxnuEbkAS94tY5Rul/view"
+    }
   ]
 };

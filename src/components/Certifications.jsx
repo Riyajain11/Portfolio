@@ -18,23 +18,29 @@ const Certifications = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioData.certifications.map((cert, index) => (
-            <motion.div
+            <motion.a
               key={index}
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ scale: 1.02 }}
-              className="glass p-6 rounded-2xl flex items-center gap-6 border border-white/5 hover:border-purple-500/30 transition-all duration-300"
+              whileHover={{ scale: 1.02, y: -5 }}
+              className="glass p-6 rounded-2xl flex items-center gap-6 border border-white/5 hover:border-purple-500/30 transition-all duration-300 group"
             >
-              <div className="p-4 rounded-xl bg-purple-500/10 text-purple-400 text-2xl">
+              <div className="p-4 rounded-xl bg-purple-500/10 text-purple-400 text-2xl group-hover:bg-purple-500 group-hover:text-white transition-all duration-300">
                 <FaAward />
               </div>
               <div className="flex-1">
-                <h3 className="text-white font-bold mb-1 leading-tight">{cert}</h3>
-                <p className="text-slate-500 text-xs uppercase tracking-widest">Verified Certificate</p>
+                <h3 className="text-white font-bold mb-1 leading-tight group-hover:text-purple-400 transition-colors">{cert.name}</h3>
+                <div className="flex items-center gap-2 text-slate-500 text-[10px] uppercase tracking-widest font-bold">
+                  <span>Verified</span>
+                  <FaExternalLinkAlt className="text-[8px]" />
+                </div>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
       </div>

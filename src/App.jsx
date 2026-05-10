@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
-import GithubStats from './components/GithubStats';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
@@ -45,7 +44,6 @@ function App() {
         <Experience />
         <Projects />
         <Certifications />
-        <GithubStats />
         <Contact />
       </main>
       
