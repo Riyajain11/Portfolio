@@ -1,16 +1,50 @@
-# React + Vite
+# RIYA JAIN - Full Stack MERN Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and high-performance portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+- **Portfolio:** [https://github.com/Riyajain11/Portfolio](https://github.com/Riyajain11/Portfolio)
+- **GreenPath:** [https://greenpath-mua3.onrender.com](https://greenpath-mua3.onrender.com)
+- **SalonGlow:** [https://salonglow-frontend.onrender.com](https://salonglow-frontend.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Modern UI/UX**: Designed with sleek aesthetics, glassmorphism, and smooth animations using Framer Motion.
+- **Project Showcases**: Detailed project cards with live links and source code access.
+- **Functional Contact Form**: Integrated with Web3Forms for direct email delivery.
+- **Responsive Design**: Optimized for all screen sizes from mobile to desktop.
+- **Fast Performance**: Built on Vite for lightning-fast development and optimized production builds.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Icons**: React Icons (Fa, Si)
+- **Forms**: Web3Forms (Fetch API)
+- **Build Tool**: Vite
+- **Deployment**: Render / GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Riyajain11/Portfolio.git
+   cd Portfolio
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run in development mode:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📧 Contact
+- **Email**: [jainriya5454@gmail.com](mailto:jainriya5454@gmail.com)
+- **LinkedIn**: [Riya Jain](https://linkedin.com/in/riya-jain-b31558299)
+- **GitHub**: [@Riyajain11](https://github.com/Riyajain11)
