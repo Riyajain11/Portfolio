@@ -1,0 +1,76 @@
+export const projects = [
+  {
+    number: "01",
+    slug: "aidly",
+    title: "Aidly",
+    category: "Healthcare Assistance Platform",
+    summary:
+      "A healthcare assistance platform with a MERN web application and a Flutter mobile application in development.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Flutter", "Dart"],
+    webTechnologies: ["React", "Node.js", "Express", "MongoDB"],
+    mobileTechnologies: ["Flutter", "Dart"],
+    webContribution: [
+      "Frontend development",
+      "React UI",
+      "Dashboard interfaces",
+      "API integration",
+    ],
+    mobileContribution: [
+      "Flutter frontend",
+      "UI implementation",
+      "Application flows",
+    ],
+    mobileStatus: "In Development",
+    liveUrl: "https://grand-frangollo-d9383c.netlify.app/",
+    githubUrl: "",
+    apkUrl: "/aidly-app.apk",
+  },
+  {
+    number: "02",
+    slug: "greenpath",
+    title: "GreenPath",
+    category: "Farmer-Buyer Marketplace",
+    summary:
+      "A full-stack MERN marketplace connecting farmers with buyers through crop listings and buyer connections.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+    supportingTechnologies: ["Python", "FastAPI", "Pandas", "NumPy"],
+    features: [
+      "Farmer crop listings",
+      "Buyer connections",
+      "REST APIs for marketplace workflows",
+      "MongoDB data storage",
+      "Cloudinary image uploads",
+    ],
+    supportingDescription:
+      "Includes a crop price prediction component built with Python and data-processing libraries.",
+    liveUrl: "https://greenpath-mua3.onrender.com/",
+    githubUrl: "https://github.com/Riyajain11/Greenpath",
+    apkUrl: "",
+  },
+  {
+    number: "03",
+    slug: "salonglow",
+    title: "SalonGlow",
+    category: "Salon Booking Platform",
+    summary:
+      "A full-stack MERN salon booking application developed during my internship at InspireLeap.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "Twilio OTP",
+    ],
+    features: [
+      "Responsive frontend",
+      "Reusable React components",
+      "OTP authentication",
+      "REST APIs and CRUD operations",
+      "Booking flows",
+    ],
+    liveUrl: "https://salonglow-frontend.onrender.com/",
+    githubUrl: "https://github.com/Riyajain11/SalonGlow",
+    apkUrl: "",
+  },
+];

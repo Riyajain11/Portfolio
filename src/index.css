@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "DM Sans", "Avenir Next", "Segoe UI", sans-serif;
+  color: #F5F1FA;
+  background: #171321;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --paper: #171321;
+  --paper-deep: #211B2D;
+  --ink: #F5F1FA;
+  --muted: #A9A0B8;
+  --line: rgba(196, 181, 253, 0.13);
+  --accent: #C4B5FD;
+  --accent-hover: #A78BFA;
+  --accent-soft: rgba(196, 181, 253, 0.12);
+  --serif: "Fraunces", Georgia, serif;
+  --mono: "DM Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(196, 181, 253, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(196, 181, 253, 0.025) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+body,
+button,
+a {
+  font-family: "DM Sans", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+img,
+svg {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: var(--paper);
+  background: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
